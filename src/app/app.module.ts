@@ -9,13 +9,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { CardsComponentComponent } from './components/cards-component/cards-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
     ModalComponent,
-    NavBarComponent
+    NavBarComponent,
+    CardsComponentComponent
   ],
   imports: [
     BrowserModule,

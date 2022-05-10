@@ -1,5 +1,5 @@
 <nav-bar></nav-bar>
-<modal (close)="closeModal()"></modal>
+<modal *ngIf = "showModal" (close)= "closeModal()"></modal>
 <button mat-stroked-button (click)="onCardClick()">Show Modal</button>
 
 <!-- add code here for cards -->
