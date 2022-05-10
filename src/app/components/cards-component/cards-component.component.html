@@ -1,1 +1,8 @@
-<p>cards-component works!</p>
+<modal *ngIf = "showModal" (close)= "closeModal()"></modal>
+<div class="card-container" *ngFor="let item of parsedProductData">
+    <div class="card" (click)="onCardClick()">
+        <h1> {{item.itemName}}</h1>
+        <img src="{{item.img}}">
+        <p>{{item.itemDesc}}</p>
+    </div>
+</div>

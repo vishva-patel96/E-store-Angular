@@ -3,26 +3,43 @@
     // TODO makne sure there is space on the right/left and top so that cards are not
    // touching sides of
     // screen and navigation bar
+    
+    display: flex;
+    flex-direction: row
+    ;
+    justify-content: left;
+    align-content: center;
+    flex-grow: 3;
+    width: 30%;
+    height: 25%;
+    // min-width: 200px;
     padding-bottom: 50px;
-    }
+   
     .card {
     // TODO add a border around each card with a border-radius of at least 20px
-    min-width: 400px;
-    min-height: 400px;
+    width: 100px;
+    height: 200px;
+    // min-width: 400px;
+    // min-height: 400px;
     flex-grow: 1;
+    border-color: black;
+    border: 5px;
+    border-radius: 20px;
     // the following code is to make sure that we can align the image in the center
     // align-self needs to be within a container that has display: flex
     display: flex;
     flex-flow: column wrap;
     cursor: pointer;
+
     h1, p {
-    //Assignment 1 - Requirements 4
-    margin-top: 12px;
-    margin-left: 10px;
+        margin-top: 12px;
+        margin-left: 10px;
     }
+
     img {
-    width: 350px;
-    align-self: center;
+        width: 50px;
+        align-self: center;
     }
-    }
+  }
+}
     
