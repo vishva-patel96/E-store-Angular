@@ -1,7 +1,7 @@
 .container {
     padding: 12px;
     display: flex;
-    background: #004a79;
+    background: lightseagreen;
     color: white;
     border-bottom: 3px solid rgba(0,0,0, 0.1);
 }
@@ -10,6 +10,10 @@ h1 {
     font-size: 36px;
     margin-top: 5px;
     display: inline;
+}
+img{
+    width: 100px;
+    height: 50px;
 }
 
 search-bar {

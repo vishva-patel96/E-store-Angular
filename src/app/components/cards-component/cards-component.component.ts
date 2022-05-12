@@ -36,7 +36,7 @@ export class CardsComponentComponent implements OnInit {
       item_description: 'These are fruits',
       storage_location: 'Bin number 19',
       inventory_level: 5,
-      image: '/assets/images/vegetables.jpg'
+      image: '/assets/images/fruite.jpg'
       },
       {
       id: 2,
@@ -44,7 +44,7 @@ export class CardsComponentComponent implements OnInit {
       item_description: 'This is bread',
       storage_location: 'Bin number 5',
       inventory_level: 5,
-      image: '/assets/images/vegetables.jpg'
+      image: '/assets/images/bread2.jfif'
       },
       {
       id: 3,
@@ -52,7 +52,7 @@ export class CardsComponentComponent implements OnInit {
       item_description: 'This is milk',
       storage_location: 'Bin number 80',
       inventory_level: 5,
-      image: '/assets/images/vegetables.jpg'
+      image: '/assets/images/milk.jfif'
       },
       {
       id: 4,
@@ -60,7 +60,7 @@ export class CardsComponentComponent implements OnInit {
       item_description: 'This is toothpaste',
       storage_location: 'Bin number 32',
       inventory_level: 5,
-      image: '/assets/images/vegetables.jpg'
+      image: '/assets/images/toothpaste3.jfif'
       },
       {
       id: 5,
@@ -68,7 +68,7 @@ export class CardsComponentComponent implements OnInit {
       item_description: 'These are bars of soap',
       storage_location: 'Bin number 90',
       inventory_level: 5,
-      image: '/assets/images/vegetables.jpg'
+      image: '/assets/images/soap.jfif'
       }
       ];
 
